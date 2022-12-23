@@ -76,13 +76,14 @@ body {
 
 #tip-amount.show{
   visibility: visible;
-  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
-  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  /* -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s; */
+  background-color: #ffcf0d;
 }
 
 @-webkit-keyframes fadein{
-  from{bottom: 0; opacity: 0;}
-  to{bottom: 30px; opacity: 1;}
+  from{bottom:0; opacity: 0;}
+  to{bottom:30px; opacity: 1;}
 }
 @keyframes fadein{
   from{bottom: 0; opacity: 0;}
@@ -90,8 +91,8 @@ body {
 }
 
 @-webkit-keyframes fadeout{
-  from{bottom: 30; opacity: 1;}
-  to{bottom: 0px; opacity: 0;}
+  from{bottom:30; opacity: 1;}
+  to{bottom:0px; opacity: 0;}
 }
 @keyframes fadeout{
   from{bottom: 30; opacity: 1;}
